@@ -1,8 +1,8 @@
-const Item = (props) => {
+const Item = ({ children }) => {
   return (
     <li class="list-group-item">
-      <a href="#" className="list-group-item list-group-item-action">
-        {props.children}
+      <a href="#" className={children.className}>
+        {children} {children.value}
       </a>
     </li>
   );

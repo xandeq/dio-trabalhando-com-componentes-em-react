@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <ul class="list-group list-group-flush">
-        <Item>Teste 1</Item>
+        <Item className="list-group-item list-group-item-action">Teste 1</Item>
         <Item>Teste 2</Item>
         <Item>Teste 3</Item>
       </ul>
